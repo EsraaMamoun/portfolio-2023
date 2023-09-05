@@ -22,7 +22,7 @@ setTimeout(function () {
 
 setTimeout(function () {
   document
-    .getElementsByClassName("oropendola")[0]
+    .getElementsByClassName("portfolio")[0]
     .classList.remove("nonvisible");
   document.getElementsByClassName("centered")[0].classList.remove("centered");
   document.getElementsByClassName("centered")[0].classList.remove("centered");
@@ -69,7 +69,7 @@ const outlineSmall = document.getElementsByClassName("outlinecircle-small")[0]
   .style;
 const outlineBig =
   document.getElementsByClassName("outlinecircle-big")[0].style;
-const oropendola = document.getElementsByClassName("oropendola")[0];
+const portfolio = document.getElementsByClassName("portfolio")[0];
 const projectContent = document.getElementsByClassName("projectcontentwrap");
 const projectContentLinks = document.querySelectorAll(".projectcontentwrap a");
 
@@ -123,7 +123,7 @@ function scrollHome() {
   yellowSmall.classList.remove("centered");
   blackSmall.classList.remove("centered-black");
   yellowSmall.classList.remove("centered-yellow");
-  oropendola.classList.remove("nonvisible");
+  portfolio.classList.remove("nonvisible");
 
   yellowSmall.classList.remove("overlap-yellow");
   blackSmall.classList.remove("overlap-black");
@@ -141,7 +141,7 @@ function scrollHome() {
 function scrollAbout() {
   yellowSmall.classList.add("centered-yellow");
   blackSmall.classList.add("centered-black");
-  oropendola.classList.add("nonvisible");
+  portfolio.classList.add("nonvisible");
   yellowSmall.classList.remove("overlap-yellow");
   blackSmall.classList.remove("overlap-black");
   yellowSmall.style.zIndex = "-2";
@@ -204,7 +204,7 @@ function scrollWork() {
 
   yellowSmall.classList.add("centered-yellow");
   blackSmall.classList.add("centered-black");
-  oropendola.classList.add("nonvisible");
+  portfolio.classList.add("nonvisible");
 
   yellowSmall.style.zIndex = "2";
   blackSmall.style.zIndex = "-2";
@@ -253,7 +253,7 @@ function scrollContact() {
 
   yellowSmall.classList.add("overlap-yellow");
   blackSmall.classList.add("overlap-black");
-  oropendola.classList.add("nonvisible");
+  portfolio.classList.add("nonvisible");
 
   yellowSmall.style.backgroundColor = "var(--mustard)";
   yellowSmall.style.zIndex = "2";
@@ -300,7 +300,7 @@ function scrollProject() {
 
   yellowSmall.classList.add("centered-yellow");
   blackSmall.classList.add("centered-black");
-  oropendola.classList.add("nonvisible");
+  portfolio.classList.add("nonvisible");
 
   yellowSmall.style.zIndex = "2";
   blackSmall.style.zIndex = "-2";
